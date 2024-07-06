@@ -1,1 +1,1 @@
-from trainers.golem_trainer import GolemTrainer
+from .golem_trainer import GolemTrainer

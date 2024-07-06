@@ -8,7 +8,7 @@ import tensorflow as tf
 tf.compat.v1.disable_eager_execution() 
 
 
-from utils.dir import create_dir
+from ..utils.dir import create_dir
 
 
 class GolemTrainer:
