@@ -8,7 +8,7 @@ from .trainers import GolemTrainer
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 
-def golem(X, lambda_1, lambda_2, equal_variances=True,
+def fit_golem(X, lambda_1, lambda_2, equal_variances=True,
           num_iter=1e+5, learning_rate=1e-3, seed=1,
           checkpoint_iter=None, output_dir=None, B_init=None):
     """Solve the unconstrained optimization problem of GOLEM, which involves

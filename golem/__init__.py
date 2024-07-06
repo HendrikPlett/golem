@@ -1,2 +1,2 @@
-from .golem import golem
+from .golem import fit_golem
 from .utils.train import postprocess
