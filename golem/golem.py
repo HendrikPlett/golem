@@ -77,7 +77,7 @@ if __name__ == '__main__':
                                noise_type, B_scale, seed=1)
 
     # GOLEM-EV
-    B_est = golem(dataset.X, lambda_1=2e-2, lambda_2=5.0,
+    B_est = fit_golem(dataset.X, lambda_1=2e-2, lambda_2=5.0,
                   equal_variances=True, checkpoint_iter=5000)
 
     # Post-process estimated solution and compute results
