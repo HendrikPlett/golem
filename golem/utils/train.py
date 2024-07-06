@@ -1,6 +1,6 @@
 import numpy as np
 
-from utils.utils import count_accuracy, plot_solution, is_dag
+from .utils import count_accuracy, plot_solution, is_dag
 
 
 def threshold_till_dag(B):
