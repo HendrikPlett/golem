@@ -6,6 +6,6 @@ with open('requirements.txt') as f:
 setup(
     name='Golem',  
     version='0.6',            
-    packages=['golem'], 
+    packages=['golempckg'], 
     install_requires = requirements
 )
