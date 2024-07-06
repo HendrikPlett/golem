@@ -2,6 +2,11 @@ import logging
 
 import numpy as np
 import tensorflow as tf
+# Necessary to migrate to tf 2.x
+# This package was written in tf 1.x
+# which is no longer available
+tf.compat.v1.disable_eager_execution() 
+
 
 from utils.dir import create_dir
 
