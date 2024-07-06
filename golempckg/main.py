@@ -11,13 +11,13 @@ import logging
 
 import numpy as np
 
-from data_loader import SyntheticDataset
-from golem import golem
-from utils.config import save_yaml_config, get_args
-from utils.dir import create_dir, get_datetime_str
-from utils.logger import LogHelper
-from utils.train import postprocess, checkpoint_after_training
-from utils.utils import set_seed, get_init_path
+from golempckg.data_loader import SyntheticDataset
+from golempckg import golem
+from golempckg.utils.config import save_yaml_config, get_args
+from golempckg.utils.dir import create_dir, get_datetime_str
+from golempckg.utils.logger import LogHelper
+from golempckg.utils.train import postprocess, checkpoint_after_training
+from golempckg.utils.utils import set_seed, get_init_path
 
 
 def main():

@@ -1,7 +1,7 @@
 import os
 
-from .models import GolemModel
-from .trainers import GolemTrainer
+from golempckg.models import GolemModel
+from golempckg.trainers import GolemTrainer
 
 
 # For logging of tensorflow messages
