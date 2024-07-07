@@ -5,7 +5,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='Golem',  
-    version='0.9',            
+    version='0.10',            
     packages=['golempckg', 
               'golempckg.models', 
               'golempckg.trainers', 
