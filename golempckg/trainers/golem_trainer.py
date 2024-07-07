@@ -8,7 +8,7 @@ import tensorflow as tf
 tf.compat.v1.disable_eager_execution() 
 
 
-#from ..utils.dir import create_dir
+from ..utils.dir import create_dir
 
 
 class GolemTrainer:
@@ -111,5 +111,5 @@ class GolemTrainer:
 
         if output_dir is not None:
            # Save the weighted matrix (without post-processing)
-            #create_dir('{}/checkpoints'.format(output_dir))
+            create_dir('{}/checkpoints'.format(output_dir))
             np.save('{}/checkpoints/B_iteration_{}.npy'.format(output_dir, i), B_est)
